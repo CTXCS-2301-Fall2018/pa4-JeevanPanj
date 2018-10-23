@@ -1,9 +1,9 @@
-@Jeevan Panjwani
-@Assignment 4-1
-@Due:
-@Purpose:
+    @Jeevan Panjwani
+    @Assignment 4-1
+    @10/23/18
+    @Purpose: To add numbers between to set values, using a loop to incremenet the start value until it is equal to the end value.
+    @R2 is the start value, R3 is the end value, R1 is used for the incrementing in the loop
 
-	@	Put the required header information here
 
 	.extern printf
 	.extern scanf
@@ -20,7 +20,7 @@ main:
 	@ Your code must put the final answer
 	@ in R1.
 	@-------------
-	MOV R1, #0
+	MOV R1, #0      @ Initializes R1 as 0.
 
 _loop:
     ADD R1, R2, R1  @Adds R2 value to R1, incremementing each loop.
